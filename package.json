@@ -1,0 +1,20 @@
+{
+  "name": "@wyre-technology/sentinelone-mcp",
+  "version": "0.1.0",
+  "description": "Multitenant Streamable HTTP wrapper for sentinel-one/purple-mcp",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
